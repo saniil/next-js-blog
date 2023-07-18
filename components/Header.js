@@ -1,11 +1,15 @@
 import Link from "next/link";
+import styled from "styled-components";
+
+const HeaderDiv = styled.div`
+  background-color: tomato;
+  padding: 20px;
+`;
+
 export default () => (
-  <div>
-    <div>
-      LİNKLER:: <Link href={"/"}>Anasayfa</Link>
-    </div>
-    <div>
-      <Link href={"/about"}>About</Link>
-    </div>
-  </div>
+  <HeaderDiv>
+    LİNKLER:
+    <Link href={"/"}>Anasayfa</Link>
+    <Link href={"/about"}>About</Link>
+  </HeaderDiv>
 );
