@@ -1,20 +1,18 @@
-import Link from "next/link";
 import Header from "./Header";
 import styled from "styled-components";
 
-const StyledHeader = styled(Header)`
+const BodyDiv = styled.div`
   border: 10px solid yellow;
   background-color: pink;
 `;
 
 export default ({ title, children }) => (
-  <div>
-    {" "}
-    <StyledHeader />
+  <BodyDiv>
     <h1>{title}</h1>
+    <Header />
     <div>{children}</div>
     <footer>
       <a>FOOTER</a>
     </footer>
-  </div>
+  </BodyDiv>
 );
