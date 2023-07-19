@@ -12,5 +12,6 @@ export default () => (
   <HeaderDiv>
     <Button href={"/"}>Ana Sayfa</Button>
     <Button href={"/about"}>Hakkımızda</Button>
+    <Button href={"/blog"}>Blog</Button>
   </HeaderDiv>
 );
