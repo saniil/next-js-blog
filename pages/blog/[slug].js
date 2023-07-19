@@ -1,6 +1,4 @@
 import Layout from "../../components/Layout";
-import { useRouter } from "next/router";
-import Error from "next/error";
 
 import fs from "fs";
 import matter from "gray-matter";
