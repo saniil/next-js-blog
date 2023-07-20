@@ -43,6 +43,7 @@ export default ({ title, children }) => (
           HİZMETLER:Dijital Kampüs, Küçük Çamlıca Mah., Kısıklı Cad., No:56 (7
           No'lu Bina) 34696 Üsküdar / İSTANBUL
         </p>
+        <p>Wed Jul 19 2023 20:16:56 GMT+0300 (GMT+03:00)</p>
       </FooterInner>
     </Footer>
   </BodyDiv>
