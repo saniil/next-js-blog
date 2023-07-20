@@ -28,6 +28,7 @@ const ContentInner = styled.div`
 const H1 = styled.h1`
   padding: 20px;
 `;
+let tarih = "";
 
 export default ({ title, children }) => (
   <BodyDiv>
@@ -43,7 +44,7 @@ export default ({ title, children }) => (
           HİZMETLER:Dijital Kampüs, Küçük Çamlıca Mah., Kısıklı Cad., No:56 (7
           No'lu Bina) 34696 Üsküdar / İSTANBUL
         </p>
-        <p>Wed Jul 19 2023 20:16:56 GMT+0300 (GMT+03:00)</p>
+        <p>Thu Jul 20 2023 14:28:13 GMT+0300 (GMT+03:00)</p>
       </FooterInner>
     </Footer>
   </BodyDiv>

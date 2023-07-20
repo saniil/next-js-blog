@@ -4,11 +4,7 @@ export default function Home() {
   return (
     <div>
       <Layout title="Ana Sayfa">
-        <h3>
-          {process.env.NODE_ENV === "development"
-            ? "dev mode"
-            : " production mode"}
-        </h3>
+        <h3>{process.env.NODE_ENV === "development" ? "dev mode" : ""}</h3>
         <div>{process.env.API_URL}</div>
         It is a long established fact that a reader will be distracted by the
         readable content of a page when lo oking at its layout. The point of
