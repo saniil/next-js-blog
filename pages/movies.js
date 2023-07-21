@@ -572,6 +572,7 @@ export default function Movies() {
   return (
     <Layout title={"Filmler"}>
       <MovieList>
+        deneme
         {fetchSıkıntıInternetdata.map((item) => (
           <MovieCard key={item.id}>
             <Image
