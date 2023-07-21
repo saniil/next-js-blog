@@ -19,6 +19,7 @@ export default () => (
       <Button href={"/about"}>Hakkımızda</Button>
       <Button href={"/blog"}>Blog</Button>
       <Button href={"/contact"}>İletişim</Button>
+      <Button href={"/movies"}>Filmler</Button>
     </HeaderInline>
   </HeaderDiv>
 );
